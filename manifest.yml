@@ -1,11 +1,11 @@
 ---
 declared-services: 
-  sample-nodejs-cloudant-cloudantNoSQLDB:
+  mycloudant-jufpintoca:
     label: cloudantNoSQLDB 
     plan: Lite 
 applications:
-- name: sample-nodejs-cloudant
+- name: Cloudant-bx_prueba
   random-route: true
   memory: 192M
   services:
-  - sample-nodejs-cloudant-cloudantNoSQLDB
+  - mycloudant-jufpintoca
